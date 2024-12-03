@@ -4,3 +4,4 @@ images/posts/*.pdf
 images/posts/*.sty
 _source/*_cache
 .Rproj.user
+files/cv_zh.pdf

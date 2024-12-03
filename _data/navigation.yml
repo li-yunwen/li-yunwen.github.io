@@ -16,5 +16,5 @@ main:
   # - title: "Blog Posts"
   #   url: /posts/
 
-  - title: "CV"
-    url: /cv/
+  # - title: "CV"
+  #   url: /cv/
