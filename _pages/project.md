@@ -6,15 +6,15 @@ author_profile: true
 toc: true
 ---
 
-List your projects here.
+{% assign category_order = "Healthcare, Path planning, Robot arm, Virtual reality" | split: ", " %}
 
-{% include base_path %}
+{% for category in category_order %}
+## {{ category }}
 
-## Test Project
----
+    {% assign projects_in_category = site.projects | where: 'category', category | sort: 'date' | reverse %}
 
-{% assign sortedProjects = site.projects | sort: 'date' | reverse %}
+    {% for post in projects_in_category %}
+        {% include archive-single.html %}
+    {% endfor %}
 
-{% for post in sortedProjects %}
-  {% include archive-single.html %}
 {% endfor %}

@@ -11,4 +11,4 @@ redirect_from:
 
 Hi! I'm Yunwen from Wuxi, China. I obtained my Bachelor in Computer Engineering at [The Chinese University of Hong Kong, Shenzhen](https://cuhk.edu.cn/en). Since Sept. 2023, I entered ETH Zürich as a Master's student in Robotics, System and Control.
 
-My interest lies in Robotics.
+My interest lies in Robotic application in healthcare.
